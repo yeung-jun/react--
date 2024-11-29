@@ -1,0 +1,17 @@
+node.js 설치
+
+create-react-app .
+
+cls 치면 위에꺼 싹 삭제
+
+npm run start
+
+여러 줄 작성할 떄는 소괄호 입력
+
+자동완성 안되니깐 처음에 소/대문자 잘확인하기
+
+js에서 다른 js불러올 때 자동완성으로 안하면 임폴트 자동으로 불러와 지지 않음
+
+CRUD는 기본
+
+React Developer Tools 확장 프로그램 설치
