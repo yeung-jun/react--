@@ -2,7 +2,7 @@ import Button from "../component/Button";
 import Header from "../component/Header"
 import { useState, useContext, useEffect } from "react";
 import { DiaryStateContext } from "../App";
-import { getMonthRangeByDate} from"../uti";
+import { getMonthRangeByDate, setPageTitle } from"../uti";
 import DiaryList from "../component/DiaryList";
 
 const Home = () => {
@@ -26,6 +26,10 @@ const Home = () => {
             setFilterData([]);
         }
     },[data,pivoDate]);
+    useEffect(()=>{
+        setPageTitle('Y-JUN 감정일기 home')
+    },[]);
+    
     return (
     <div>
         <Header title={headerTitle} leftChild={<Button text={"<"} onClick={onDe} />} rightChild={<Button text={">"} onClick={onIN} />}/>

@@ -5,17 +5,21 @@
     padding: 10px 20px;
     font-size: 18px;
     white-space: nowrap;
-    font-family: "Nanum Pen Script", cursive;
+    font-family: "Orbit", sans-serif;
 }
 .Button_default {
-    background: #ececec;
+    background: #d8d8d8;
     color: #000;
+    border: 2px solid #ccc;
+}
+.Button_default:hover {
+    background: #ccc;
 }
 .Button_positive {
     background: #64c964;
     color: #fff;
 }
-.Button_nagative {
+.Button_negative {
     background: #fd565f;
     color: #fff;
 }

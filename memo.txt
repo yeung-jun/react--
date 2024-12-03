@@ -15,3 +15,5 @@ js에서 다른 js불러올 때 자동완성으로 안하면 임폴트 자동으
 CRUD는 기본
 
 React Developer Tools 확장 프로그램 설치
+
+firebase 수정 npm run build && firebase deploy

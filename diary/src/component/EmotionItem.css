@@ -14,22 +14,25 @@
 .EmotionItem span {
     font-size: 18px;
 }
+.editor_section input {
+    text-align: center;
+}
 .EmotionItem_off {
     background: #ececec;
     color: #000;
 }
 .EmotionItem_on_1 {
-    background: #64c964;
+    background: #FFF4EA;
 }
 .EmotionItem_on_2 {
-    background: #9dd772;
+    background: #FDE5EC;
 }
 .EmotionItem_on_3 {
-    background: #fdce17;
+    background: #ffa0a0;
 }
 .EmotionItem_on_4 {
-    background: #fd8446;
+    background: #B7B7B7;
 }
 .EmotionItem_on_5 {
-    background: #fd565f;
+    background: #cfebff;
 }
